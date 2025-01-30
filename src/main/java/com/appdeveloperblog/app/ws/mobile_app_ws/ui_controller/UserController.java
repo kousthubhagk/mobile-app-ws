@@ -1,6 +1,7 @@
 package com.appdeveloperblog.app.ws.mobile_app_ws.ui_controller;
 
 import com.appdeveloperblog.app.ws.mobile_app_ws.ui.model.request.UserDetailsRequestModel;
+import com.appdeveloperblog.app.ws.mobile_app_ws.ui.model.response.UserDetailsResponseModel;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -12,8 +13,8 @@ public class UserController {
     }
 
     @PostMapping
-    public String createUser(@RequestBody UserDetailsRequestModel userDetails){ //class thats going to convert the json payload document into java object
-        return "create user was called";
+    public UserDetailsResponseModel createUser(@RequestBody UserDetailsRequestModel userDetails){ //class thats going to convert the json payload document into java object
+        return null;
     }
 
     @PutMapping
