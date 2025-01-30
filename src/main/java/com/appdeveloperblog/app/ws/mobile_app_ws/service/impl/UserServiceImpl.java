@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service //marking the class as a service layer component - it tells spring that this contains the business logic and should be managed as a spring bean
 //this also supports auto implementation via interfaces, then using autowired to inject the implementation - use the service class as type but implementation will be injected automatically
-//enables AOP
+//enables AOP - aspect oriented programming
 public class UserServiceImpl implements UserService {
     @Override
     public UserDTO createUser(UserDTO user) {
