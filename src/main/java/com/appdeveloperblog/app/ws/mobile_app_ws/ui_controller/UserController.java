@@ -1,7 +1,6 @@
 package com.appdeveloperblog.app.ws.mobile_app_ws.ui_controller;
 
 import com.appdeveloperblog.app.ws.mobile_app_ws.service.UserService;
-import com.appdeveloperblog.app.ws.mobile_app_ws.service.impl.UserServiceImpl;
 import com.appdeveloperblog.app.ws.mobile_app_ws.shared.dto.UserDTO;
 import com.appdeveloperblog.app.ws.mobile_app_ws.ui.model.request.UserDetailsRequestModel;
 import com.appdeveloperblog.app.ws.mobile_app_ws.ui.model.response.UserDetailsResponseModel;
