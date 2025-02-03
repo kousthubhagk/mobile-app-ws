@@ -11,4 +11,8 @@ public interface UserRepository extends CrudRepository<UserEntity, Long> {
     //or add methods that use hibernate then for each operation create a separate method that crud
 
 //    UserEntity findUsreByEmail(String email); //it will do it on its own
+
+    /*
+    UserEntity findByEmail(String email); //this can also be done to keep unique email, after this go to service impl and check if the data exists
+     */
 }
